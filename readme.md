@@ -7,7 +7,7 @@ This is a simple application which serves as a demonstration of its owner's codi
 Task: Implement online Dictionary which allows user to store, view and add definitions of words.
 
 Solution: Write an application using JavaScript.
-* Use namespace nsDictionary to prevent �polluting� of the global scope.
+* Use namespace nsDictionary to prevent "polluting" the global scope.
 * Use module pattern to isolate functionality based on the purpose of a particular module.
 
 Implemented modules are described below:
