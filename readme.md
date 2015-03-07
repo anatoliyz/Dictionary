@@ -4,11 +4,12 @@ This is a simple application which serves as a demonstration of its owner's codi
 
 ## Description
 
-Task: Implement online Dictionary which allows user to store, view and add definitions of words.
+Task: Implement online Dictionary which allows user to store, view and add definitions of words using HTML5, CSS3 and JavaScript. Usage of third-party frameworks or libraries such as jQuery or Bootstrap is not permitted.
 
-Solution: Write an application using JavaScript.
-* Use namespace nsDictionary to prevent "polluting" the global scope.
-* Use module pattern to isolate functionality based on the purpose of a particular module.
+Solution: Write an application using only pure JavaScript.
+* No third-party libraries are used.
+* Namespace nsDictionary is used to prevent "pollution" of the global scope.
+* Module pattern is used to isolate functionality based on the purpose of a particular module.
 
 Implemented modules are described below:
 
