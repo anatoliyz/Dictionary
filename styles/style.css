@@ -1,0 +1,88 @@
+body {
+    font-family: "Segoe UI", "Trebuchet MS", Verdana, sans-serif;
+    background-color: #3A4E72;
+    color: #94A7C9;
+}
+
+h2, h3 {
+    margin-top: 0;
+    -webkit-margin-before: 0;
+}
+
+li a, p a {
+    color: #94A7C9;
+    text-decoration: none;
+}
+
+button {
+    background-color: #3A4E72;
+    border: 1px solid #94A7C9;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    color: #94A7C9;
+    font-size: 12px;
+    font-family: "Segoe UI", "Trebuchet MS", Verdana, sans-serif;
+    margin: 0;
+    padding: 5px 10px;
+}
+
+input{
+    background-color: #3A4E72;
+    color: #94A7C9;
+    border: 1px solid #94A7C9;
+    box-shadow: rgba(0, 0, 0, 0.075) 0px 1px 1px 0px inset, rgba(102, 175, 233, 0.6) 0px 0px 8px 0px;
+    box-sizing: border-box;
+    font-size: 14px;
+    height: 34px;
+    line-height: 20px;
+    margin: 0px;
+    outline: #555 none 0px;
+    padding: 6px 12px;
+    transition-delay: 0s, 0s;
+    transition-duration: 0.15s, 0.15s;
+    transition-property: border-color, box-shadow;
+    transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+    width: 815.5px;
+}
+
+#alphabet ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: left;
+}
+
+#alphabet ul li {
+    display: inline;
+}
+
+#alphabet ul li a {
+    padding: .2em .5em;
+    text-transform: uppercase;
+}
+
+#description, #word-list, #word-card, #add-word {
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #94A7C9;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+#word-list li {
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+}
+
+#add-word input {
+    width: 290px;
+    margin-right: 20px;
+}
+
+#show-add-form {
+    text-decoration: underline;
+}

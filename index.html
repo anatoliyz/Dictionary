@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Dictionary</title>
+    <link rel="stylesheet" href="./styles/style.css"/>
+</head>
+<body>
+<h1>Dictionary</h1>
+
+<div id="description">
+    <p>This is a dictionary. Please click on a first letter of the word which you are interested in or click <a
+            id="show-add-form" href="#">here</a> to add new word.</p>
+
+    <div id="alphabet">
+    </div>
+</div>
+
+<div id="word-list">
+</div>
+
+<div id="word-card">
+    <h2 id="word-card-word">Word</h2>
+
+    <div id="word-card-definition">Here will be the definition of the word</div>
+
+    <p><a id="word-card-back" href="#"><<< Back</a></p>
+</div>
+
+<div id="add-word">
+    <h3>Add word</h3>
+
+    <p>You can add your word in the dictionary by entering it and its definition in the fields below and hitting "Add"
+        button.</p>
+
+    <p><label>Word: </label><input id="input-add-word" placeholder="Type a word"/>
+        <label>Definition: </label><input id="input-add-def" placeholder="Type a short definition"/>
+        <button id="btn-add">Add!</button>
+    </p>
+    <b>
+        <button id="save-data">Save data</button>
+        <button id="clear-data">Clear saved data</button>
+    </b>
+</div>
+
+<script src="./scripts/script.js"></script>
+</body>
+</html>
