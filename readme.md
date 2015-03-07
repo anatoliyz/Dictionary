@@ -8,16 +8,16 @@ Task: Implement online Dictionary which allows user to store, view and add defin
 
 Solution: Write an application using only pure JavaScript.
 * No third-party libraries are used.
-* Namespace nsDictionary is used to prevent "pollution" of the global scope.
-* Module pattern is used to isolate functionality based on the purpose of a particular module.
+* Namespace **nsDictionary** is used to prevent "pollution" of the global scope.
+* _Module_ pattern is used to isolate functionality based on the purpose of a particular module.
 
 Implemented modules are described below:
 
-* SimpleDictionary - provides basic functionality for working with the individual words in the dictionary;
+* **SimpleDictionary** - provides basic functionality for working with the individual words in the dictionary;
 
-* SimpleDictionaryView - provides interface for the end-user;
+* **SimpleDictionaryView** - provides interface for the end-user;
 
-* SimpleDictionaryDataStorage - handles loading, saving and deleting application data;
+* **SimpleDictionaryDataStorage** - handles loading, saving and deleting application data;
 
 ## Installation
 
